@@ -5,7 +5,7 @@ import subprocess
 def run_the_harvester(domain):
     try:
         # Provide the correct path to theHarvester.py using a raw string
-        harvester_path = r'C:\Users\yeran\theHarvester\theHarvester.py'
+        harvester_path = r'C:\Users\ExampleUser\Documents\Tools'
 
         # Command to run theHarvester
         command = ['python', harvester_path, '-d', domain, '-b', 'all']
