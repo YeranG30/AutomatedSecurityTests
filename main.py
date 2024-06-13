@@ -5,7 +5,7 @@ import threading
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout, QFileDialog, QMessageBox
 
 def run_amass(domain, output_file):
-    amass_path = r'C:\Users\yeran\Downloads\amass_Windows_amd64\amass.exe'
+    amass_path = r'C:\Users\ExampleUser\Documents\Tools'
     command = [amass_path, 'enum', '-passive', '-d', domain]
     return run_command(command, "Amass", output_file)
 
@@ -31,18 +31,18 @@ def run_nmap(ip_address, output_file):
         run_command(command, f"Nmap {scan_name}", output_file)
 
 def run_wafwoof(url, output_file):
-    python_path = r'C:\Users\yeran\AppData\Local\Programs\Python\Python312\python.exe'
-    wafw00f_script = r'C:\Users\yeran\AppData\Local\Programs\Python\Python312\Scripts\wafw00f'
+    python_path = r'C:\Users\ExampleUser\Documents\Tools'
+    wafw00f_script = r'C:\Users\ExampleUser\Documents\Tools_script'
     command = [python_path, wafw00f_script, url]
     return run_command(command, "WAFW00F", output_file)
 
 def run_ffuf(url, wordlist, output_file):
-    ffuf_path = r'C:\Users\yeran\go\bin\ffuf.exe'
+    ffuf_path = r'C:\Users\ExampleUser\Documents\Tools'
     command = [ffuf_path, '-u', f'{url}/FUZZ', '-w', wordlist, '-o', output_file]
     return run_command(command, "FFUF", output_file)
 
 def run_theharvester(domain, output_file):
-    harvester_path = r'C:\Users\yeran\theHarvester\theHarvester.py'
+    harvester_path = r'C:\Users\ExampleUser\Documents\Tools'
     command = ['python', harvester_path, '-d', domain, '-b', 'all']
     return run_command(command, "TheHarvester", output_file)
 
