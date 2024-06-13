@@ -1,7 +1,5 @@
-import sys
 import subprocess
 import os
-
 
 def run_amass(domain, output_dir, amass_path):
     # Ensure the output directory exists
@@ -21,14 +19,9 @@ def run_amass(domain, output_dir, amass_path):
     except subprocess.CalledProcessError as e:
         print(f"An error occurred: {e}")
 
-
 if __name__ == "__main__":
-    if len(sys.argv) != 4:
-        print("Usage: python Script_amass_scan.py <domain> <output_dir> <amass_path>")
-        sys.exit(1)
-
-    domain = sys.argv[1]
-    output_dir = sys.argv[2]
-    amass_path = sys.argv[3]
+    domain = ""  # Replace with your target domain
+    output_dir = ""  # Output directory for the results
+    amass_path = "C:\Users\ExampleUser\Documents\Tools"  # Replace with the full path to your Amass executable
 
     run_amass(domain, output_dir, amass_path)
