@@ -2,6 +2,16 @@
 
 **AutomatedSecurityTest** is a comprehensive Python-based framework designed to automate the entire network reconnaissance and vulnerability detection process. This tool integrates several powerful security tools, including Amass, Nmap, GoBuster, theHarvester, and WafWoof, to streamline assessments and significantly reduce testing time.
 
+**Note**
+This project is still a work in progress. Current tasks include:
+- Fixing bugs
+- Enhancing the GUI
+- Streamlining data processing
+- Improving report output
+- Optimizing code for efficiency
+
+More updates to come!"
+
 ## Features
 - **Automated Network Reconnaissance:** Seamlessly integrate and run multiple reconnaissance tools to gather detailed information about the target network.
 - **Vulnerability Detection:** Identify potential security vulnerabilities, including those listed in the OWASP Top 10, to facilitate targeted testing and remediation.
