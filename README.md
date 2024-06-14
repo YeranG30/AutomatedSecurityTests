@@ -80,7 +80,8 @@ Extract publicly available emails, subdomains, and employee data from theHarvest
 - **Recommendations**: Apply stringent email filtering rules, conduct regular cybersecurity training programs for all employees, and deploy a high-grade threat detection solution to minimize the phishing risks efficiently.
 
 #### Documentary Evidence
-- `<add picture of x>`
+
+![image](https://github.com/YeranG30/AutomatedSecurityTests/assets/74067706/2eec9bb3-c9b4-4d10-8833-d38b4940eed8)
 
 ### 3. Objective Nmap Network Scanning
 
@@ -94,7 +95,17 @@ Perform Nmap scans to identify open ports, running services, and evaluate the ne
 - **Recommendations**: Continue to update and patch for the services those ports are associated with, do strict penetration tests for the purpose of identifying and mitigating existing vulnerabilities.
 
 #### Visual Documentation
-- `<add picture of x>`
+- ![image](https://github.com/YeranG30/AutomatedSecurityTests/assets/74067706/8c8966d0-b0b9-43fb-977a-4440cb2f5e20)
+- ![image](https://github.com/YeranG30/AutomatedSecurityTests/assets/74067706/d12a30f0-7b40-45c8-8733-637cc2bf9265)
+- ![image](https://github.com/YeranG30/AutomatedSecurityTests/assets/74067706/ff42e468-6dac-4d46-97d4-31de626b09d0)
+-![image](https://github.com/YeranG30/AutomatedSecurityTests/assets/74067706/fc6e508d-b3a4-406a-a4bc-c0084622d872)
+- ![image](https://github.com/YeranG30/AutomatedSecurityTests/assets/74067706/dc72f4be-6bcf-45ab-85ed-3cfd7e76b620)
+- ![image](https://github.com/YeranG30/AutomatedSecurityTests/assets/74067706/eb564a9a-3a0d-4b65-b046-9bb5ed6d8acd)
+
+
+
+- 
+
 
 ### 4. Fluff Directory Enumeration
 
@@ -111,6 +122,7 @@ To perform directory and file brute-forcing using Fluff to discover open resourc
 - **Recommendations**: Reduce the threat surface by enforcing some access controls on sensitive directories, use strong methods for authentication, and audit frequently all the assets in the platform.
 
 #### Evidence
+![image](https://github.com/YeranG30/AutomatedSecurityTests/assets/74067706/9bf41e02-db86-44ae-9f66-cf54eaf9ddd4)
 
 
 
